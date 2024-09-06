@@ -4,32 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Redfab',
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Redfab — российская компания, которая разрабатывает и производит промышленное оборудование для 3D-печати, 
+        а также предлагает услуги по контрактному производству изделий из термопластов.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'ПАК Redfab',
+    Svg: require('@site/static/img/PAKS.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       ПАК Redfab — комплекс для поточной 3D-печати, включающий три принтера и вспомогательные системы: вакуумную, 
+       системы подачи и автоматического сброса деталей, систему селективной подачи а также шкафы для электроники и 
+       материалов. Работает по технологии FFF (FDM) и поддерживает мультиматериальную печать под управлением 
+       MES-системы.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'MES-система',
+    Svg: require('@site/static/img/MES.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        MES-система от Redfab — инструмент для управления производством на основе FFF. Она объединяет все установки 
+        в одном веб-интерфейсе, позволяя удаленно контролировать и управлять процессами. Это серверное 
+        веб-приложение с базой данных для удобного управления.
       </>
     ),
   },

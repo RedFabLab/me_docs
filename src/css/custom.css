@@ -28,3 +28,9 @@
   --ifm-color-primary-lightest: #ffa38f;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Удаление кнопок переключения страниц. Ненужны - тк у нас инструкция не "прямая", а "ссылочная". */
+.pagination-nav__link--next,
+.pagination-nav__link--prev {
+  display: none;
+}
