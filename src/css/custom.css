@@ -34,3 +34,7 @@
 .pagination-nav__link--prev {
   display: none;
 }
+/*Скрытие кнопки "Back to main menu" в мобильной версии*/
+.navbar__back {
+  display: none !important;
+}
