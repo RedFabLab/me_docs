@@ -15,47 +15,48 @@ sidebar_position: 1
 
 После авторизации открывается главная страница, отображающая:
 
-1. Строку меню c переходом в разделы:
+1. "Верхнее меню" c переходом в разделы:
    - **Настройки**
    - **Личный кабинет**
    - **Ошибки**\
-      Открывает [окно ошибок](https://mes-docs.onrender.com/docs/StartWithMES/NotificationsAndErrors/#ошибки).
+      Открывает [**окно ошибок**](/docs/StartWithMES/NotificationsAndErrors/#ошибки).
    -  **Уведомления**\
-      Открывает [окно уведомлений](https://mes-docs.onrender.com/docs/StartWithMES/NotificationsAndErrors/#уведомления).
+      Открывает [**окно уведомлений**](/docs/StartWithMES/NotificationsAndErrors/#уведомления).
    -  **Обновить**\
       Выполняет перезагрузку страницы.
    -  **Выйти**\
       Пользователь выходит из системы. Открывается окно регистрации.
-2. [**Уведомления и ошибки**](https://mes-docs.onrender.com/docs/StartWithMES/NotificationsAndErrors/)
+2. [**Уведомления и ошибки**](/docs/StartWithMES/NotificationsAndErrors/)
 3. "Шапку" области принтера
    -  Название и операционную группу принтера
-   -  Чек-бокс **Включить в очередь печати**\
-      Включение чек-бокса помещает принтер в [очередь печати](https://mes-docs.onrender.com/docs/StartWithMES/PrintQueue/PrintQueueRules/). Теперь на него будут назначаться печать копий задач.
-   -  [Терминал](https://mes-docs.onrender.com/docs/StartWithMES/WorkingWithTerminal)
-4. [**Область принтера**](https://mes-docs.onrender.com/docs/StartWithMES/PrinterArea)
+   -  Кнопка переключения **Включить в очередь печати**\
+      Включение кнопки переключения помещает принтер в [**очередь печати**](/docs/StartWithMES/PrintQueue/PrintQueueRules/). 
+      Теперь на него будет назначаться печать копий заданий.
+   -  [**Терминал**](/docs/StartWithMES/WorkingWithTerminal)
+4. [**Область принтера**](/docs/StartWithMES/PrinterArea)
 
 ![MainPage](./img/MainPage.png)
 
 ## Настройки
 
-- При включении чек-бокса **Сбрасывать бракованные детали автоматически** при браке детали система 
+- При включении кнопки переключения **Сбрасывать бракованные детали автоматически** при браке детали система 
 автоматически выполняет отпуск вакуума и протягивание детали, а также начинает новую печать копии;
-- При включении чек-бокса **Генерировать отчеты об ошибках принтеров** система автоматически скачивает 
-отчеты об ошибках принтера, возникших в ходе работы;
-- При включении чек-бокса **Автоматически отправлять отчеты об ошибках в техническую поддержку** система 
+- При включении кнопки переключения **Генерировать отчеты об ошибках принтеров** система автоматически генерирует 
+отчеты об ошибках принтера, которые в дальнейшем могут быть отправлены в техподдержку;
+- При включении кнопки переключения **Автоматически отправлять отчеты об ошибках в техническую поддержку** система 
 автоматически будет отправлять отчет об ошибках специалистам технической поддержки.
 
 Скачивание и отправка отчетов возможна и выборочно, для конкретной ошибки, подробности описаны в 
-статье [**Уведомления и ошибки**](https://mes-docs.onrender.com/docs/StartWithMES/NotificationsAndErrors/).
+статье [**Уведомления и ошибки**](/docs/StartWithMES/NotificationsAndErrors/).
 
 ![Properies](./img/Properies.png)
 
 Кнопка **Перейти в Центр обновлений** открывает пользователю 
-страницу [центра обновлений](https://mes-docs.onrender.com/docs/StartWithMES/UpdateCenter).
+страницу [**центра обновлений**](/docs/StartWithMES/UpdateCenter).
 
 Кнопка **Скачать отчет** в разделе **Журнал событий** скачивает отчет обо всех непрочитанных ошибках и уведомлениях.
 Для скачивания отчета о конкретной ошибке необходимо перейти в раздел 
-[**история ошибок**](http://localhost:3000/docs/StartWithMES/NotificationsAndErrors/#история-ошибок).
+[**история ошибок**](/docs/StartWithMES/NotificationsAndErrors/#история-ошибок).
 
 ## Личный кабинет 
 
@@ -65,28 +66,33 @@ sidebar_position: 1
 1. Смена имени и фамилии
 2. Сброс пароля
 3. Сохранение введенных изменений
-4. Просмотр доступного функционала (зависит от выданной [роли](https://mes-docs.onrender.com/docs/StartWithMES/RoleModel))
+4. Просмотр доступного функционала (зависит от выданной [**роли**](/docs/StartWithMES/RoleModel))
 
 ![LK](./img/LK.png)
 
 При необходимости создания/удаления/редактирования учетных записей - рекомендуется ознакомиться 
-с разделом [**Пользователи**](https://mes-docs.onrender.com/docs/WorkingWithReferenceBooks#пользователи).
+с разделом [**Пользователи**](/docs/WorkingWithReferenceBooks#пользователи).
 
 ## Запуск печати 
 
 В MES-системе существует 3 способа запуска печати:
 
-1. Через [**очередь печати**](https://mes-docs.onrender.com/docs/StartWithMES/PrintQueue/)
-2. Через [**PRM**](https://mes-docs.onrender.com/docs/PRM)
-3. Через [**терминал**](https://mes-docs.onrender.com/docs/StartWithMES/WorkingWithTerminal)
-   При печати терез **терминал** копия задания не помещается в очередь печати. Печать через терминал возможна 
-   только, если принтер находится [в статусе](https://mes-docs.onrender.com/docs/StartWithMES/PrinterArea#статусы-принтеров) 
+1. Через [**очередь печати**](/docs/StartWithMES/PrintQueue/)
+2. Через [**Слайсер**](/docs/Slicer/SlicerPrintingSettings#слайситьв-печатьскачать)
+3. Через [**терминал**](/docs/StartWithMES/WorkingWithTerminal)\
+   Печать через **терминал** печатает отдельный выбранный gcode и никак не связана с очередью печати и её 
+   [**жизненным циклом**](/docs/StartWithMES/PrintQueue/#жизненный-цикл-проектов). Печать через терминал возможна 
+   только, если принтер находится [**в статусе**](/docs/StartWithMES/PrinterArea#статусы-принтеров) 
    **Готов к работе** и НЕ в очереди печати.\
    Для печати через терминал можно выбрать:
    -  **Печать из файла**\
       Для печати из файла необходимо нажать кнопку **Печать из файла**, а затем **Выбрать файл**. 
-      Откроется окно проводника для выбора файла на вашем ПК. Поддерживается только формат gcode.
-   -  **Печать задания**
+      Откроется окно проводника для выбора файла на вашем ПК. Поддерживается только формат gcode. 
+   -  **Недавние файлы**\
+      Нажате на кнопку **Недавние файлы** открывает список gcode, распечатаных ранее. При выборе необходимого gcode
+      из открывшегося списка - система распечатает 3D-модель.
+   -  **Печать задания**\
+      Из выбраного задания выбирается gcode файл и печатается 1 модель (назависимо от колличетсва копий в задании).
 
 ![TaskPrinting](./img/TaskPrinting.png)
 
@@ -96,12 +102,12 @@ sidebar_position: 1
 :::
 
 **Подстатьи**
-- [Уведомления и ошибки](https://mes-docs.onrender.com/docs/StartWithMES/NotificationsAndErrors/)
-- [Правила формирования очереди печати](https://mes-docs.onrender.com/docs/StartWithMES/PrintQueue/PrintQueueRules/)
-- [Область принтера](https://mes-docs.onrender.com/docs/StartWithMES/PrinterArea)
-- [Центр обновлений](https://mes-docs.onrender.com/docs/StartWithMES/UpdateCenter)
-- [Ролевая модель](https://mes-docs.onrender.com/docs/StartWithMES/RoleModel)
-- [Работа со справочниками](https://mes-docs.onrender.com/docs/WorkingWithReferenceBooks)
-- [Очередь печати](https://mes-docs.onrender.com/docs/StartWithMES/PrintQueue/)
-- [PRM](https://mes-docs.onrender.com/docs/PRM)
-- [Работа с терминалом](https://mes-docs.onrender.com/docs/StartWithMES/WorkingWithTerminal)
+- [**Уведомления и ошибки**](https://mes-docs.onrender.com/docs/StartWithMES/NotificationsAndErrors/)
+- [**Правила формирования очереди печати**](https://mes-docs.onrender.com/docs/StartWithMES/PrintQueue/PrintQueueRules/)
+- [**Область принтера**](https://mes-docs.onrender.com/docs/StartWithMES/PrinterArea)
+- [**Центр обновлений**](https://mes-docs.onrender.com/docs/StartWithMES/UpdateCenter)
+- [**Ролевая модель**](https://mes-docs.onrender.com/docs/StartWithMES/RoleModel)
+- [**Работа со справочниками**](https://mes-docs.onrender.com/docs/WorkingWithReferenceBooks)
+- [**Очередь печати**](https://mes-docs.onrender.com/docs/StartWithMES/PrintQueue/)
+- [**Настройки печати слайсера**](https://mes-docs.onrender.com/docs/Slicer/SlicerPrintingSettings)
+- [**Работа с терминалом**](https://mes-docs.onrender.com/docs/StartWithMES/WorkingWithTerminal)
