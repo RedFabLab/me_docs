@@ -19,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://redfab.ru/">
-            Подробнее о Redfab
+            to="/docs/StartWithMES/">
+            Инструкция MES
           </Link>
         </div>
       </div>

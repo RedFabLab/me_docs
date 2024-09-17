@@ -38,3 +38,8 @@
 .navbar__back {
   display: none !important;
 }
+
+/*Скрыли SVG картинку при внешних ссылках в навбаре*/
+.navbar__item svg {
+  display: none !important;
+}

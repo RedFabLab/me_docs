@@ -78,10 +78,9 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            href: "https://redfab.ru",
+            label: "Подробнее о Redfab", // Изменение на сайт Redfab
             position: "left",
-            label: "Инструкция MES",
           },
           // { to: "/blog", label: "Blog", position: "left" }, // Страница "Blog", пока не нужна
         ],
