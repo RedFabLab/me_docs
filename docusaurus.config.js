@@ -83,6 +83,10 @@ const config = {
             position: "left",
           },
           // { to: "/blog", label: "Blog", position: "left" }, // Страница "Blog", пока не нужна
+          {
+            type: "search", // Строка поиска
+            position: "right", // Позиция строки поиска
+          },
         ],
         // footer: {
         //   style: 'dark',

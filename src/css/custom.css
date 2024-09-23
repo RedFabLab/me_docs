@@ -43,3 +43,20 @@
 .navbar__item svg {
   display: none !important;
 }
+  
+.search-bar-wrapper {
+  display: flex;
+  justify-content: flex-end; /* Выравнивание вправо */
+  width: 100%;
+  padding-right: 16px; /* Отступ справа */
+  visibility: visible !important; /* Сделать видимым */
+  opacity: 1 !important; /* Полная непрозрачность */
+  z-index: 100; /* Чтобы строка была видимой */
+}
+
+.navbar__search-input {
+  width: 250px; /* Установить ширину строки поиска */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
