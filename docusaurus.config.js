@@ -13,12 +13,10 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://mes-docs.onrender.com",
+  url: "https://your-docusaurus-site.example.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
-  trailingSlash: false,  // Глобальная настройка trailingSlash для поиска
-
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -48,11 +46,6 @@ const config = {
           // editUrl: // - Добавлял "Edit this page" в конце каждой статьи
           //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
-        sitemap: { //че-то для поиска
-          changefreq: 'daily',
-          priority: 0.5,
-          //trailingSlash: false,
-        },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
@@ -70,14 +63,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      algolia: {
-        appId: 'C87UUZ1F4U',
-        //apiKey: '8bc0c1b166a56875b0c3dd07534b2fd5',
-        apiKey: '25e5f33cbc9f28a800231ca539022a9a ',
-        indexName: 'mes-onrender',
-        contextualSearch: true, // Опционально, включает контекстный поиск
-        debug: false, // Установите true для отладки
-      },
       colorMode: {
         defaultMode: 'dark', // Использовать темную тему по умолчанию
         disableSwitch: true,  // Отключить возможность переключения темы
