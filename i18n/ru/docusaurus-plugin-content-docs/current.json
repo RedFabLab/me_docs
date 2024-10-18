@@ -1,0 +1,9 @@
+{
+    "theme.SearchBar.label": "Поиск",
+    "theme.SearchBar.placeholder": "Искать",
+    "theme.SearchBar.recent": "Недавние",
+    "theme.SearchBar.toSelect": "выбрать",
+    "theme.SearchBar.toNavigate": "перемещать",
+    "theme.SearchBar.toClose": "закрыть"
+  }
+  
