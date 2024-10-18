@@ -34,6 +34,16 @@ const config = {
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
+    // defaultLocale: 'ru',
+    // locales: ['ru'],
+    // localeConfigs: {
+    //   ru: {
+    //     label: 'Русский',
+    //     direction: 'ltr',
+    //     htmlLang: 'ru-RU',
+    //     path: 'ru',
+    //   },
+    // },
   },
 
   presets: [
@@ -76,7 +86,34 @@ const config = {
         apiKey: '25e5f33cbc9f28a800231ca539022a9a ',
         indexName: 'mes-onrender',
         contextualSearch: true, // Опционально, включает контекстный поиск
-        debug: false, // Установите true для отладки
+        debug: false,
+      //   debug: true, // Установите true для отладки
+      //   translations: {
+      //     button: {
+      //       buttonText: 'Искать',  // Слово "Search" на панели
+      //       buttonAriaLabel: 'Искать',  // Слово "Search" для accessibility
+      //     },
+      //     modal: {
+      //       searchBox: {
+      //         resetButtonTitle: 'Очистить',  // Кнопка "Reset"
+      //         resetButtonAriaLabel: 'Очистить',  // Кнопка "Reset" для accessibility
+      //         cancelButtonText: 'Отмена',  // Кнопка "Cancel"
+      //         cancelButtonAriaLabel: 'Отмена',  // Кнопка "Cancel" для accessibility
+      //       },
+      //       startScreen: {
+      //         recentSearchesTitle: 'Недавние',  // Заголовок "Recent"
+      //       },
+      //       noResultsScreen: {
+      //         noResultsText: 'Ничего не найдено',  // Текст, если ничего не найдено
+      //       },
+      //     },
+      //     footer: {
+      //       selectText: 'выбрать',  // Текст "to select"
+      //       navigateText: 'перемещать',  // Текст "to navigate"
+      //       closeText: 'закрыть',  // Текст "to close"
+      //     },
+      //   },
+      // 
       },
       colorMode: {
         defaultMode: 'dark', // Использовать темную тему по умолчанию
@@ -156,5 +193,7 @@ const config = {
       },
     }),
 };
+
+
 
 export default config;

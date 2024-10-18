@@ -61,3 +61,19 @@
   padding: 8px;
 } 
 */
+
+.DocSearch-Hit, 
+.DocSearch-Hit-content, 
+.DocSearch-Hit-action, 
+.DocSearch-Hit-title, 
+.DocSearch-Hit-description, 
+.DocSearch-Button, 
+.DocSearch-Hit-text {
+  color: inherit !important; /* Унаследовать стандартный цвет */
+}
+
+.DocSearch-Footer {
+  display: 
+  
+  none !important; /* Убираем надпись "Search by Algolia" */
+}
